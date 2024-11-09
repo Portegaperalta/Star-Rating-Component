@@ -29,10 +29,28 @@ const starTexts = [
 
 for (let i = 0; i < stars.length; i++) {
   stars[i].addEventListener('mouseover', () => {
-    console.log('working')
+
   })
 }
 
 // change text depending star rating
 
-starOne
+starOne.addEventListener('click', () => {
+  starText.innerText = starTexts[4].text
+})
+
+starTwo.addEventListener('click', () => {
+  starText.innerText = starTexts[3].text
+})
+
+starThree.addEventListener('click', () => {
+  starText.innerText = starTexts[2].text
+})
+
+starFour.addEventListener('click', () => {
+  starText.innerText = starTexts[1].text
+})
+
+starFive.addEventListener('click', () => {
+  starText.innerText = starTexts[0].text
+})
