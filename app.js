@@ -27,6 +27,11 @@ const starTexts = [
 
 // hover on star effect
 
+for (let i = 0; i < stars.length; i++) {
+  stars[i].addEventListener('mouseover', () => {
+    stars[i].style.color = '#FACC15'
+  })
+}
 
 // change text depending star rating
 
