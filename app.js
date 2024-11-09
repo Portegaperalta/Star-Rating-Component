@@ -27,11 +27,6 @@ const starTexts = [
 
 // hover on star effect
 
-for (let i = 0; i < stars.length; i++) {
-  stars[i].addEventListener('mouseover', () => {
-
-  })
-}
 
 // change text depending star rating
 
